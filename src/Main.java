@@ -79,7 +79,15 @@ public class Main {
 
         int theSecondX = 7;
         int theSecondY = 17;
-        byte theSecondZ = System.out.println(Integer.toBinaryString(theSecondX)) | System.out.println(Integer.toBinaryString(theSecondY));
+
+        int newZ = theSecondY & theSecondX;
+        System.out.println(Integer.toBinaryString(newZ));
+
+
+        int theOtherNewZ = theSecondX | theSecondY;
+        System.out.println(Integer.toBinaryString(theOtherNewZ));
+
+
 
 
 
